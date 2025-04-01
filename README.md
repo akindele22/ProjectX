@@ -1,6 +1,7 @@
 # Project X - Inventory and Checkout System
 
-![Alt text](Project X model.png)
+![Inventory and Checkout System Model]()
+
 
 
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
