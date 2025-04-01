@@ -87,8 +87,12 @@ Full API documentation is available via Swagger UI at `/api-docs` when running t
 |----------|--------|-------------|----------------------|
 | `/api/v1/auth/register` | POST | Register super admin | None |
 | `/api/v1/auth/login` | POST | User login | None |
-| `/api/v1/users` | POST | Create new user | `user:create` |
-| `/api/v1/inventory` | GET | List all items | `inventory:read` |
+| `/api/v1/users` | POST | Create new user(Require Super Admin permissions) | `user:create` |
+| `/api/v1/users` | GET | List all users | `user:read` |
+| `/api/v1/roles` | GET | List all roles | `role:read` |
+| `/api/v1/roles/:id/permissions` | POST | Assign permissions to a role | `role:update` |
+| `/api/v1/inventory` | POST | Add a new inventory item | `inventory:create` |
+| `/api/v1/inventory` | GET | List all inventory items | `inventory:read` |
 | `/api/v1/checkout` | POST | Process checkout | `checkout:process` |
 
 ## Installation
