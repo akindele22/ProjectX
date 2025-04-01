@@ -1,6 +1,6 @@
 # Project X - Inventory and Checkout System
 
-![Inventory and Checkout System Model]()
+![Inventory and Checkout System Model](https://github.com/akindele22/ProjectX/blob/66eb5928b7e90583bc7d152e2c69b83d09c34b08/Project%20X%20model.png)
 
 
 
