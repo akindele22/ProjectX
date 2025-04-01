@@ -105,7 +105,7 @@ Full API documentation is available via Swagger UI at `/api-docs` when running t
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/project-x.git
+   git clone [https://github.com/akindele22/ProjectX.git]
    cd project-x
    ```
 2. Install dependencies:
