@@ -71,7 +71,6 @@ project-x/
 ├── models/          # Data models
 ├── routes/          # API endpoints
 ├── services/        # External services
-├── tests/           # Test suites
 ├── utils/           # Helper functions
 ├── app.js           # Main application
 └── knexfile.js      # Database configuration
