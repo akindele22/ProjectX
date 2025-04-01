@@ -78,9 +78,6 @@ project-x/
 ```
 
 ## API Documentation
-
-Full API documentation is available via Swagger UI at `/api-docs` when running the application locally.
-
 ### Key Endpoints
 
 | Endpoint | Method | Description | Required Permissions |
@@ -149,11 +146,6 @@ Run the test suite with:
 npm test
 ```
 
-Generate a test coverage report:
-```bash
-npm run test:coverage
-```
-
 ## Deployment
 
 ## Troubleshooting
@@ -176,23 +168,6 @@ npm run test:coverage
 Application logs are output to:
 - Console in development mode
 - File-based logs in production (`logs/` directory)
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add some amazing feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. Open a Pull Request
 
 ## License
 
