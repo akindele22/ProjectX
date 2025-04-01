@@ -117,31 +117,6 @@ Full API documentation is available via Swagger UI at `/api-docs` when running t
 
 Create a `.env` file in the root directory:
 
-```env
-# Server
-NODE_ENV=development
-PORT=5000
-FRONTEND_URL=http://localhost:3000
-
-# Database
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=yourpassword
-DB_NAME=projectx
-DB_SSL=false
-
-# Authentication
-JWT_SECRET=your_jwt_secret
-JWT_EXPIRES_IN=30d
-
-# Email (for user invites)
-EMAIL_SERVICE=sendgrid
-EMAIL_USER=your@email.com
-EMAIL_PASSWORD=youremailpassword
-EMAIL_FROM=noreply@projectx.com
-```
-
 ## Running the Application
 
 ### Development Mode
@@ -175,18 +150,6 @@ npm run test:coverage
 ```
 
 ## Deployment
-
-### Docker
-```bash
-docker build -t project-x .
-docker run -p 5000:5000 --env-file .env project-x
-```
-
-### PM2 (Production Process Manager)
-```bash
-npm install -g pm2
-pm start app.js --name project-x
-```
 
 ## Troubleshooting
 
